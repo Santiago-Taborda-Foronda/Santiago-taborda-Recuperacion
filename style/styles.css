@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+.section-1 {
+    width: 100%;
+    padding: 0px;
+    
+}
+.text-1{
+    color: white;
+    background-color: rgb(7, 64, 102);
+    font-size: 3ch;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+.JimMorrison {
+    background-color: white;
+    margin: 20px;
+    width: 20%;
+    border-radius: 3%;
+}
+img {
+    border-radius: 3%;
+    width: 100%;
+    height: 200px;
+}
+.RollingStones {
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    width: 20%;
+}
+.PinkFloyd {
+    
+    background-color: white;
+    margin: 20px;
+    width: 20%;
+}
+.acdc{
+    background-color: white;
+    margin: 20px;
+    width: 20%;
+}
+h1 {
+    margin: 10px;
+}
+p {
+    font-size:80%;
+    margin: 10px;
+}
+.footer-div {
+    margin-top: 30px;
+    background-color: rgb(7, 64, 102);
+    color: white;
+}
+footer{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.img-header{
+    width: 100%;
+    
+}
+img.header{
+    height: 100%;
+}
+.header-1{
+    height: 700px;
+    border-radius: 0%;
+}
+
+h1{
+    margin: 300px,0px,0px,0px;
+    color: white;
+    font-size: 8ch;
+    align-items: center;
+}
+.title {
+    margin-top: -100px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px){
+    .section-1 {
+        width: 100%;
+        padding: 0px;
+        
+    }
+    .text-1{
+        color: white;
+        background-color: rgb(7, 64, 102);
+        font-size: 2ch;
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+    
+    }
+    .JimMorrison {
+        background-color: white;
+        margin: 20px;
+        width: 80%;
+        border-radius: 3%;
+    }
+    img {
+        border-radius: 3%;
+        width: 100%;
+        height: 200px;
+    }
+    .RollingStones {
+        flex-direction: column;
+        background-color: white;
+        margin: 20px;
+        width: 80%;
+    }
+    .PinkFloyd {
+        
+        background-color: white;
+        margin: 20px;
+        width: 80%;
+    }
+    .acdc{
+        background-color: white;
+        margin: 20px;
+        width: 80%;
+    }
+    h1 {
+        margin: 10px;
+    }
+    p {
+        font-size:80%;
+        margin: 10px;
+    }
+    .footer-div {
+        margin-top: 30px;
+        background-color: rgb(7, 64, 102);
+        color: white;
+    }
+    footer{
+       
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-header{
+        width: 100%;
+        
+    }
+    img.header{
+        height: 100%;
+    }
+    .header-1{
+        height: 300px;
+        border-radius: 0%;
+    }
+    
+    h1{
+        margin: 300px,0px,0px,0px;
+        color: white;
+        font-size: ch;
+        align-items: center;
+    }
+    .title {
+        margin-top: -200px;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
